@@ -1,0 +1,88 @@
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4f46e5, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.glass-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.tag-badge {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.training-section {
+  border-left: 3px solid #0ea5e9;
+  padding-left: 12px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Player Card Badges === */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 5px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge-female {
+  background-color: #D0F0FD;
+  color: #007BFF;
+}
+
+.badge-blood {
+  background-color: #FDE2E2;
+  color: #C0392B;
+}
+
+.badge-sport {
+  background-color: #FFF9DB;
+  color: #D4AC0D;
+}
+
+.player-card {
+  background-color: #f9fafc;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f1f1f1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* body {
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+  background-color: #f9f9f9;
+} */
+
+/* body {
+  background: linear-gradient(to right, #e0ecff, #fef9f9);
+} */
+
+body {
+  background-color: #f4f6f9; /* or #f0f2f5 */
+}
